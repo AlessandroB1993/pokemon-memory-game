@@ -1,0 +1,18 @@
+1. Card component with: image, name
+2. Table component with a list of Cards
+3. Scoreboard with current score and best score
+4. Header with game title and scoreboard + instructions
+
+Logic:
+Game finisches when user clicks wrong image or all images
+Best scores is updated only when game finishes and when is greater than prevScore
+Fetching of imgs should happen on render of table component and img is passed as prop
+On each click on a card:
+1 checks if cardId is in the array 
+2 if not that cardId is stored 
+3 if array length is number of cards or cardId is present, game finishes and state is resetted
+
+Flow of the app:
+On first load compnents are rendered, fetching of images ahappen when table comp is rendered.
+on array of totNm is created and then used with map for rendering cards
+

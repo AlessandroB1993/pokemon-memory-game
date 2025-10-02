@@ -1,0 +1,8 @@
+.scoreboard {
+  display: flex;
+  border-bottom: 1px solid rgba(33, 131, 62, 0.87);
+  font-weight: 600;
+  gap: 2rem;
+  justify-content: right;
+  padding: 0 1rem;
+}

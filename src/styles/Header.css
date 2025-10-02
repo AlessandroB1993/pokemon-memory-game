@@ -1,0 +1,31 @@
+header {
+  background-color: rgb(235, 93, 93);
+  color: whitesmoke;
+  padding: 14px 1rem;
+  position: relative;
+}
+
+header h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+header p {
+  text-align: center;
+}
+
+label {
+  position: absolute;
+  right: 32px;
+  top: 85px;
+  font-weight: 600;
+}
+
+select {
+  margin-left: 0.5rem;
+  padding: 0.25em;
+  border: none;
+  color: rgba(33, 131, 62, 0.87);
+}

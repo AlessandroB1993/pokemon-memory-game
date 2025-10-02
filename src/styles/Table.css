@@ -1,0 +1,35 @@
+.cards-table {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+/* SINGLE CARDS  */
+.card {
+  border: 1px solid rgba(33, 131, 62, 0.87);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  max-width: 250px;
+  height: 230px;
+  transition: background-color 300ms ease;
+}
+
+.card p {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.card:hover {
+  background-color: rgba(197, 252, 224, 0.87);
+  border: 1px solid rgb(235, 93, 93);
+  cursor: pointer;
+}

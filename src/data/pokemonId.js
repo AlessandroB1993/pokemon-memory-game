@@ -1,0 +1,26 @@
+const pokemonNames = [
+  "pikachu",
+  "charizard",
+  "bulbasaur",
+  "squirtle",
+  "jigglypuff",
+  "meowth",
+  "snorlax",
+  "mewtwo",
+  "psyduck",
+  "gengar",
+  "eevee",
+  "lapras",
+  "machop",
+  "magnemite",
+  "vulpix",
+  "kabuto",
+  "hitmonlee",
+  "farfetchd",
+  "scyther",
+  "ditto",
+  "dragonite",
+  "onix",
+];
+
+export { pokemonNames };
